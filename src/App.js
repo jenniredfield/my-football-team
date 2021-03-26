@@ -26,7 +26,7 @@ function App() {
     <div className="app">
       <header className="app-header">
         <h1>My Football Team</h1>
-        <img src="/football.png" className="logo"></img>
+        <img src="/football.png" className="logo" alt="ball"></img>
       </header>
 
       <div className="app-content">

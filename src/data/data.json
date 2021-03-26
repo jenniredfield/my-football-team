@@ -1,0 +1,671 @@
+{
+  "users": {
+    "uid1234": {
+      "id": "uid1234",
+
+      "stats": {
+        "total_games_played": "10",
+
+        "total_games_won": "10",
+
+        "total_games_lost": "0",
+
+        "total_goals_scored": "10"
+      },
+
+      "username": "JackYoung",
+
+      "emailAddress": "jack_young_@hotmail.com",
+
+      "imageURL": "gs://scoremate-1598a.appspot.com/profile_images/uid1234/scraps.jpg",
+
+      "teams": ["teamUID1234", "teamUID12345", "teamUID1234567"],
+
+      "games": ["gameID1", "gameID2", "gameID1234"]
+    },
+
+    "uid12345": {
+      "id": "uid12345",
+
+      "stats": {
+        "total_games_played": "10",
+
+        "total_games_won": "10",
+
+        "total_games_lost": "0",
+
+        "total_goals_scored": "10"
+      },
+
+      "username": "Sadio",
+
+      "emailAddress": "mane@hotmail.com",
+
+      "profileImage": "gs://scoremate-1598a.appspot.com/profile_images/uid12345/sadio.jpg",
+
+      "teams": ["teamUID1234", "teamUID5678"],
+
+      "games": ["gameID1", "gameID2", "gameID1234"]
+    }
+  },
+
+  "teams": {
+    "teamUID1234": {
+      "id": "teamUID1234",
+
+      "name": "Degree53",
+
+      "players": [
+        {
+          "id": "uid1234",
+
+          "number": "9",
+
+          "position": "ST"
+        },
+
+        {
+          "id": "uid12345",
+
+          "number": "10",
+
+          "position": "LM"
+        },
+
+        {
+          "id": "playerID12346",
+
+          "number": "5",
+
+          "position": "CM"
+        },
+
+        {
+          "id": "playerID123456",
+
+          "number": "7",
+
+          "position": "RM"
+        },
+
+        {
+          "id": "playerID1234576",
+
+          "number": "4",
+
+          "position": "CB"
+        }
+      ],
+
+      "color": "red",
+
+      "stats": {
+        "total_games_played": "11",
+
+        "total_games_won": "11",
+
+        "total_games_lost": "0",
+
+        "total_goals_scored": "21",
+
+        "total_goals_conceded": "16"
+      },
+
+      "games": ["gameID1", "gameID12", "gameID123", "gameID1234", "gameID12345"]
+    },
+
+    "teamUID12345": {
+      "id": "teamUID12345",
+
+      "name": "Alty",
+
+      "date_founded": "2019-12-02T18:27:56+0000",
+
+      "players": [
+        {
+          "id": "playerID146",
+
+          "number": "2",
+
+          "position": "LCB"
+        },
+
+        {
+          "id": "playerID1246",
+
+          "number": "3",
+
+          "position": "RCB"
+        },
+
+        {
+          "id": "playerID12346",
+
+          "number": "5",
+
+          "position": "LM"
+        },
+
+        {
+          "id": "playerID123456",
+
+          "number": "7",
+
+          "position": "RM"
+        },
+
+        {
+          "id": "playerID1234576",
+
+          "number": "9",
+
+          "position": "ST"
+        }
+      ],
+
+      "color": "blue",
+
+      "stats": {
+        "total_games_played": "3",
+
+        "total_games_won": "3",
+
+        "total_games_lost": "0",
+
+        "total_goals_scored": "2",
+
+        "total_goals_conceded": "16"
+      },
+
+      "games": [
+        "gameID13",
+        "gameID123",
+        "gameID1234",
+        "gameID12343",
+        "gameID123456"
+      ]
+    },
+
+    "teamUID1234567": {
+      "id": "teamUID1234567",
+
+      "name": "Dummy full team",
+
+      "players": [
+        {
+          "id": "uid123458888888",
+
+          "number": "10",
+
+          "position": "LWB"
+        },
+
+        {
+          "id": "playerID12346999999",
+
+          "number": "5",
+
+          "position": "LB"
+        },
+
+        {
+          "id": "playerID1234567777",
+
+          "number": "7",
+
+          "position": "LCB"
+        },
+
+        {
+          "id": "playerID1234576767676",
+
+          "number": "4",
+
+          "position": "CB"
+        },
+
+        {
+          "id": "uid1234456485468",
+
+          "number": "9",
+
+          "position": "RCB"
+        },
+
+        {
+          "id": "uid12345fhgvhgfh",
+
+          "number": "10",
+
+          "position": "RB"
+        },
+
+        {
+          "id": "uid12345fhgvhgfhjhuiehcjdfhvjsfbvhjdf",
+
+          "number": "10",
+
+          "position": "RWB"
+        },
+
+        {
+          "id": "playerID12346asear",
+
+          "number": "5",
+
+          "position": "LM"
+        },
+
+        {
+          "id": "playerID123456llkhcfcx",
+
+          "number": "7",
+
+          "position": "LAM"
+        },
+
+        {
+          "id": "playerID1234576PPPPPPP",
+
+          "number": "4",
+
+          "position": "LCM"
+        },
+
+        {
+          "id": "uid1234MNMNMNMNMNMNM",
+
+          "number": "9",
+
+          "position": "LDM"
+        },
+
+        {
+          "id": "uid12345YYYY>>>>>>>",
+
+          "number": "10",
+
+          "position": "CAM"
+        },
+
+        {
+          "id": "playerID12346!@£@FHB",
+
+          "number": "5",
+
+          "position": "CM"
+        },
+
+        {
+          "id": "playerID123456hbchjdsbchjgchjaghkjcd",
+
+          "number": "7",
+
+          "position": "CDM"
+        },
+
+        {
+          "id": "playerID1234576chjhDUQWHd;hsiu;hd",
+
+          "number": "4",
+
+          "position": "RAM"
+        },
+
+        {
+          "id": "uid1234%%RFCCcdwac",
+
+          "number": "9",
+
+          "position": "RCM"
+        },
+
+        {
+          "id": "uid123451212ec",
+
+          "number": "10",
+
+          "position": "RDM"
+        },
+
+        {
+          "id": "playerID12346bbahhhfd",
+
+          "number": "5",
+
+          "position": "RM"
+        },
+
+        {
+          "id": "playerID123456BBBCCCCBBBC",
+
+          "number": "7",
+
+          "position": "LW"
+        },
+
+        {
+          "id": "playerID1234576LKUIUUCJv",
+
+          "number": "4",
+
+          "position": "LST"
+        },
+
+        {
+          "id": "uid12341ngdui",
+
+          "number": "9",
+
+          "position": "ST"
+        },
+
+        {
+          "id": "uid12345eeee3333",
+
+          "number": "10",
+
+          "position": "RST"
+        },
+
+        {
+          "id": "playerID12346dudududud",
+
+          "number": "5",
+
+          "position": "RW"
+        }
+      ],
+
+      "color": "red",
+
+      "stats": {
+        "total_games_played": "11",
+
+        "total_games_won": "11",
+
+        "total_games_lost": "0",
+
+        "total_goals_scored": "21",
+
+        "total_goals_conceded": "16"
+      },
+
+      "games": ["gameID1", "gameID12", "gameID123", "gameID1234", "gameID12345"]
+    },
+
+    "teamUID12666": {
+      "id": "teamUID12666",
+
+      "name": "Sharp",
+
+      "date_founded": "2019-12-02T18:27:56+0000",
+
+      "players": [
+        {
+          "id": "playerID14",
+
+          "number": "2"
+        },
+
+        {
+          "id": "playerID124",
+
+          "number": "3"
+        },
+
+        {
+          "id": "playerID1234",
+
+          "number": "4"
+        },
+
+        {
+          "id": "playerID12345",
+
+          "number": "5"
+        },
+
+        {
+          "id": "playerID123457",
+
+          "number": "6"
+        }
+      ],
+
+      "color": "pink",
+
+      "stats": {
+        "total_games_played": "10",
+
+        "total_games_won": "0",
+
+        "total_games_lost": "10",
+
+        "total_goals_scored": "1"
+      },
+
+      "games": [
+        "gameID13",
+        "gameID123",
+        "gameID1234",
+        "gameID12343",
+        "gameID123456"
+      ]
+    }
+  },
+
+  "games": {
+    "gameID1": {
+      "id": "gameID1",
+
+      "date": "2021-02-02T18:27:56+0000",
+
+      "homeTeam": "teamUID1234",
+
+      "awayTeam": "teamUID12666",
+
+      "hometeam_goals": [
+        {
+          "id": "goalID1",
+
+          "minute": "5",
+
+          "scorer": "uid12345",
+
+          "date": "2021-02-02T18:27:56+0000"
+        },
+
+        {
+          "id": "goalID2",
+
+          "minute": "9",
+
+          "scorer": "uid1234",
+
+          "date": "2021-02-02T18:29:56+0000"
+        },
+
+        {
+          "id": "goalID3",
+
+          "minute": "45",
+
+          "scorer": "uid12345",
+
+          "date": "2021-02-02T18:31:56+0000"
+        },
+
+        {
+          "id": "goalID11",
+
+          "minute": "51",
+
+          "scorer": "uid12345",
+
+          "date": "2021-02-02T18:32:56+0000"
+        },
+
+        {
+          "id": "goalID21",
+
+          "minute": "53",
+
+          "scorer": "uid12345",
+
+          "date": "2021-02-02T18:33:56+0000"
+        },
+
+        {
+          "id": "goalID31",
+
+          "minute": "74",
+
+          "scorer": "uid12345",
+
+          "date": "2021-02-02T18:34:56+0000"
+        },
+
+        {
+          "id": "goalID12",
+
+          "minute": "53",
+
+          "scorer": "uid12345",
+
+          "date": "2021-02-02T18:52:56+0000"
+        }
+      ],
+
+      "awayteam_goals": [
+        {
+          "id": "goalID4",
+
+          "minute": "15",
+
+          "scorer": "Own Goal",
+
+          "date": "2021-02-02T18:59:56+0000"
+        }
+      ]
+    },
+
+    "gameID2": {
+      "id": "gameID2",
+
+      "date": "2021-02-09T18:27:56+0000",
+
+      "homeTeam": "teamUID1234",
+
+      "awayTeam": "teamUID12666",
+
+      "hometeam_goals": [
+        {
+          "id": "goalID6",
+
+          "minute": "5",
+
+          "scorer": "playerID1",
+
+          "date": ""
+        },
+
+        {
+          "id": "goalID7",
+
+          "minute": "9",
+
+          "scorer": "playerID12",
+
+          "date": ""
+        },
+
+        {
+          "id": "goalID8",
+
+          "minute": "45",
+
+          "scorer": "playerID123",
+
+          "date": ""
+        }
+      ],
+
+      "awayteam_goals": []
+    },
+
+    "gameID1234": {
+      "id": "gameID1234",
+
+      "date": "2021-02-11T18:27:56+0000",
+
+      "homeTeam": "teamUID1234",
+
+      "awayTeam": "teamUID12666",
+
+      "hometeam_goals": [
+        {
+          "id": "goalID16",
+
+          "minute": "5",
+
+          "scorer": "playerID1",
+
+          "date": ""
+        },
+
+        {
+          "id": "goalID17",
+
+          "minute": "9",
+
+          "scorer": "playerID12",
+
+          "date": ""
+        },
+
+        {
+          "id": "goalID18",
+
+          "minute": "45",
+
+          "scorer": "playerID123",
+
+          "date": ""
+        }
+      ],
+
+      "awayteam_goals": [
+        {
+          "id": "goalID26",
+
+          "minute": "5",
+
+          "scorer": "playerID1",
+
+          "date": ""
+        },
+
+        {
+          "id": "goalID27",
+
+          "minute": "9",
+
+          "scorer": "playerID12",
+
+          "date": ""
+        },
+
+        {
+          "id": "goalID28",
+
+          "minute": "45",
+
+          "scorer": "playerID123",
+
+          "date": ""
+        }
+      ]
+    }
+  }
+}

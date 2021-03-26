@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+body {
+  background: #282c34;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  width: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-content {
+  color: white;
+  margin: 0 auto;
+}
+
+.app-match-date {
+  color:#2babda;
+}
+
+.app-match-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.app-match {
+  padding: 20px;
+}
+
+.app-match-details__scorer-name {
+  font-size: 12px;
+}
+
+.app-match-details__team {
+  font-size: 30px;
+}
+
+.app-match-details__score {
+  margin-top: 38px;
 }
